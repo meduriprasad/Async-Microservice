@@ -1,0 +1,10 @@
+applications:
+- name: Async-Microservice
+  memory: 512M
+  instances: 1
+  host: async-microservice
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: target/async-microservice.jar
+  env:
+    REGISTRY_SERVER_URL: pkmst-registry.mybluemix.net
+    ASYNC_UICONTROLLER_URL:
