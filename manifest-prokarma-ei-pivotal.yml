@@ -5,6 +5,11 @@ applications:
   host: async-microservice
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   path: target/async-microservice.jar
-  env:
+  env: 
     REGISTRY_SERVER_URL: pkmst-registry.apps.prokarma.com
-    ASYNC_UICONTROLLER_URL:
+    KAFKA_URL: 172.16.86.144:9092
+    ZOOKEEPER__URL: 172.16.86.144:2181
+    SPRING_DATASOURCE_URL: jdbc:postgresql://172.16.86.144:5433/postgres
+    SPRING_DATASOURCE_USERNAME: devadmin
+    SPRING_DATASOURCE_PASSWORD: yorick567)(*
+    SPRING_ADMIN_URL: pkmst-spring-admin.apps.prokarma.com

@@ -1,4 +1,4 @@
-package com.prokarma.riky.messaging.consumer;
+package com.prokarma.async.messaging.consumer;
 
 import java.util.HashMap;
 import java.util.concurrent.Executors;
@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.example.broker.consumer.DefaultConcurrentConsumerService;
-import com.prokarma.riky.messaging.producer.KafkaProducerWrapper;
-import com.prokarma.riky.messaging.tasks.MiRequestTask;
-import com.prokarma.riky.service.UserService;
+import com.prokarma.async.broker.consumer.DefaultConcurrentConsumerService;
+import com.prokarma.async.messaging.producer.KafkaProducerWrapper;
+import com.prokarma.async.messaging.tasks.MiRequestTask;
+import com.prokarma.async.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component

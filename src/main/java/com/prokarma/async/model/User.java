@@ -1,4 +1,4 @@
-package com.prokarma.riky.model;
+package com.prokarma.async.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

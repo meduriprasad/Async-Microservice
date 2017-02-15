@@ -1,9 +1,9 @@
-package com.prokarma.riky.service;
+package com.prokarma.async.service;
 
 import java.util.Optional;
 
-import com.prokarma.riky.model.MobileInternet;
-import com.prokarma.riky.model.User;
+import com.prokarma.async.model.MobileInternet;
+import com.prokarma.async.model.User;
 
 public interface UserService {
 	public User getUserData(String user, String password);

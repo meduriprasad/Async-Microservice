@@ -1,4 +1,4 @@
-package com.prokarma.riky.messaging.producer;
+package com.prokarma.async.messaging.producer;
  
 import java.io.IOException;
 import java.util.Properties;
@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import com.example.broker.producer.BasicKafkaProducerWrapper;
+import com.prokarma.async.broker.producer.BasicKafkaProducerWrapper;
 
 @Component
 public class KafkaProducerWrapper extends BasicKafkaProducerWrapper {

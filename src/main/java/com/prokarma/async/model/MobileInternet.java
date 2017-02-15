@@ -1,4 +1,4 @@
-package com.prokarma.riky.model;
+package com.prokarma.async.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

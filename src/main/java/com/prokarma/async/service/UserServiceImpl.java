@@ -1,4 +1,4 @@
-package com.prokarma.riky.service;
+package com.prokarma.async.service;
 
 import java.util.Optional;
 
@@ -7,10 +7,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.prokarma.riky.model.MobileInternet;
-import com.prokarma.riky.model.User;
-import com.prokarma.riky.repository.MobileInternetRepository;
-import com.prokarma.riky.repository.UserRepository;
+import com.prokarma.async.model.MobileInternet;
+import com.prokarma.async.model.User;
+import com.prokarma.async.repository.MobileInternetRepository;
+import com.prokarma.async.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService {

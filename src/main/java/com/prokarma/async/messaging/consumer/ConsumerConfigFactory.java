@@ -1,4 +1,4 @@
-package com.prokarma.riky.messaging.consumer;
+package com.prokarma.async.messaging.consumer;
 
 
 import java.util.Properties;
@@ -22,7 +22,7 @@ public class ConsumerConfigFactory {
         Properties props = new Properties();
         props.put("zookeeper.connect", zkServer);
         props.put("group.id", "Video-cg");
-        props.put("zookeeper.session.timeout.ms", "400");
+        props.put("zookeeper.session.timeout.ms", "1000");
         props.put("zookeeper.sync.time.ms", "200");
         props.put("auto.commit.interval.ms", "1000");
         consumerConfig = new ConsumerConfig(props);

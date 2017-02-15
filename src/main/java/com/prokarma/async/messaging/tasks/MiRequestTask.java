@@ -1,4 +1,4 @@
-package com.prokarma.riky.messaging.tasks;
+package com.prokarma.async.messaging.tasks;
 
 import java.io.IOException;
 import java.util.Optional;
@@ -6,11 +6,11 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.example.messages.MiReply;
-import com.example.messages.MiRequest;
-import com.prokarma.riky.messaging.producer.KafkaProducerWrapper;
-import com.prokarma.riky.model.MobileInternet;
-import com.prokarma.riky.service.UserService;
+import com.prokarma.async.messages.MiReply;
+import com.prokarma.async.messages.MiRequest;
+import com.prokarma.async.messaging.producer.KafkaProducerWrapper;
+import com.prokarma.async.model.MobileInternet;
+import com.prokarma.async.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class MiRequestTask implements Runnable {
